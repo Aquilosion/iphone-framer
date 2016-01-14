@@ -1,0 +1,39 @@
+{
+	"name":        "Rose Gold iPhone 6S (Skewed)",
+	
+	"background":  "transparent",
+	
+	"icon": {
+		"foreground": "icon.png",
+		"color":      "f5f2f2"
+	},
+	
+	"devices":     [
+		{
+			"device":      "iphone-6s",
+			"color":       "rose-gold"
+		}
+	],
+	
+	"width":       2185,
+	"height":      1362,
+	
+	"elements": [
+		{
+			"type":      "image",
+			"transform": "none",
+			
+			"image":     "frame.png"
+		},
+		{
+			"type":      "placeholder",
+			
+			"points":    [[207, 470], [819, 78], [1365, 1135], [1976, 735]],
+			
+			"width":     750,
+			"height":    1334,
+			
+			"index":     "main"
+		}
+	]
+}

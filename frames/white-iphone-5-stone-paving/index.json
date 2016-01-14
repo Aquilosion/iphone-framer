@@ -1,0 +1,45 @@
+{
+	"name":        "White iPhone 5 with Stone Paving",
+	
+	"background":  "photo",
+	
+	"icon": {
+		"background": "icon.png",
+		"color":      "bea494"
+	},
+	
+	"devices":     [
+		{
+			"device":      "iphone-5",
+			"color":       "white"
+		}
+	],
+	
+	"width":       3861,
+	"height":      2574,
+	
+	"elements": [
+		{
+			"type":      "image",
+			"transform": "none",
+			
+			"image":     "background.png"
+		},
+		{
+			"type":      "placeholder",
+			
+			"points":    [[1723, 1358], [1999, 1464], [1486, 1828], [1755, 1945]],
+			
+			"width":     640,
+			"height":    1136,
+			
+			"index":     "main"
+		},
+		{
+			"type":      "image",
+			"transform": "none",
+			
+			"image":     "foreground.png"
+		}
+	]
+}

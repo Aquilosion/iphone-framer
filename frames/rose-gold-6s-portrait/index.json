@@ -1,0 +1,39 @@
+{
+	"name":        "Rose Gold iPhone 6S (Portrait)",
+	
+	"background":  "transparent",
+	
+	"icon": {
+		"foreground": "icon.png",
+		"color":      "f5f2f2"
+	},
+	
+	"devices":     [
+		{
+			"device":      "iphone-6s",
+			"color":       "rose-gold"
+		}
+	],
+	
+	"width":       1106,
+	"height":      1941,
+	
+	"elements": [
+		{
+			"type":      "image",
+			"transform": "none",
+			
+			"image":     "frame.png"
+		},
+		{
+			"type":      "placeholder",
+			
+			"points":    [[166, 215], [916, 215], [166, 1549], [916, 1549]],
+			
+			"width":     750,
+			"height":    1334,
+			
+			"index":     "main"
+		}
+	]
+}

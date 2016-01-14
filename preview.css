@@ -1,0 +1,54 @@
+#preview {
+	position: fixed;
+	
+	left: 40%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#preview .frame {
+	position: relative;
+}
+
+#preview .frame .element {
+	position: absolute;
+	
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+
+#preview .frame .element .image {
+	pointer-events: none;
+}
+
+#preview .frame .element .placeholder {
+	background-color: white;
+	
+	box-sizing: border-box;
+	transform-origin: 0 0;
+}
+
+#preview .frame .element .placeholder img {
+	pointer-events: none;
+}
+
+#preview .frame .element .placeholder[data-drop="true"]::after {
+	content: "";
+	
+	display: block;
+	position: absolute;
+	
+	left: 20px;
+	top: 20px;
+	bottom: 20px;
+	right: 20px;
+	
+	border: dashed 20px black;
+}
+
+#preview .frame .element .placeholder[data-drop="true"] img {
+	opacity: 0.5;
+}
